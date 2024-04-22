@@ -1,0 +1,47 @@
+{
+   // ssh
+    "remote.SSH.remotePlatform": {
+        "bnbj-remote-dev2": "linux"
+    },
+    // editor layout
+    "workbench.colorTheme": "Dracula",
+    "editor.fontLigatures": true,
+    "workbench.sideBar.location": "right",
+    "editor.lineNumbers": "relative",
+    "workbench.startupEditor": "none",
+    "window.commandCenter": false,
+    "window.menuBarVisibility": "compact",
+    "workbench.layoutControl.enabled": false,
+    "files.autoSave": "onFocusChange",
+    "workbench.editor.editorActionsLocation": "hidden",
+    "editor.minimap.enabled": false,
+    
+    // fonts
+    "editor.fontFamily": "FiraCode Nerd Font",
+    "editor.fontSize": 13,
+    "editor.fontWeight": "360",
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.fontWeight": "360",
+    "debug.console.fontFamily": "FiraCode",
+    "debug.console.fontSize": 13,
+
+    // todo-tree
+    "todo-tree.general.statusBar": "current file",
+    "todo-tree.general.showIconsInsteadOfTagsInStatusBar": true,
+    
+    // gitlens
+    "gitlens.showWhatsNewAfterUpgrades": false,
+    "gitlens.showWelcomeOnInstall": false,
+    "gitlens.plusFeatures.enabled": false,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.codeLens.enabled": false,
+
+    // neovim
+    "extensions.experimental.affinity": {
+      "asvetliakov.vscode-neovim": 1
+    },
+    "vscode-neovim.useWSL": true,
+    "vscode-neovim.wslDistribution": "Ubuntu",
+    "vscode-neovim.neovimExecutablePaths.linux": "/opt/nvim-linux64/bin/nvim",
+    "workbench.editor.showTabs": "none",
+  }
